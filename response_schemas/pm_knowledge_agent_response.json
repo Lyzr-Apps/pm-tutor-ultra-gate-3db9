@@ -1,0 +1,22 @@
+{
+  "agent_name": "PM Knowledge Agent",
+  "agent_id": "699a8dc9c2eec05acd279dc7",
+  "description": "Searches the PM knowledge base to answer interview preparation questions, explains frameworks, provides examples, and structures responses for easy retention.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "answer": "string",
+    "framework_name": "string",
+    "key_points": "string",
+    "interview_tip": "string",
+    "related_topics": "string"
+  },
+  "example_response": {
+    "answer": "The comprehensive answer to the user's PM question",
+    "framework_name": "Name of the PM framework or concept being explained",
+    "key_points": "Comma-separated key points or takeaways",
+    "interview_tip": "Specific tip for using this in an interview context",
+    "related_topics": "Comma-separated list of related topics to explore"
+  }
+}

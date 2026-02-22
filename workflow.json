@@ -1,0 +1,32 @@
+{
+  "nodes": [
+    {
+      "id": "input_node",
+      "type": "Input",
+      "label": "User Query",
+      "nodeCategory": "input"
+    },
+    {
+      "id": "pm_tutor_agent",
+      "type": "Agent",
+      "label": "PM Tutor Agent",
+      "nodeCategory": "agent"
+    },
+    {
+      "id": "pm_knowledge_agent",
+      "type": "Agent",
+      "label": "PM Knowledge Agent",
+      "nodeCategory": "agent"
+    }
+  ],
+  "edges": [
+    {
+      "source": "input_node",
+      "target": "pm_tutor_agent"
+    },
+    {
+      "source": "input_node",
+      "target": "pm_knowledge_agent"
+    }
+  ]
+}

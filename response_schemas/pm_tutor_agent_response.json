@@ -1,0 +1,24 @@
+{
+  "agent_name": "PM Tutor Agent",
+  "agent_id": "699a8dc8e6195f9129d6b906",
+  "description": "Conducts interactive learning sessions by presenting exercises, case studies, and scenarios adapted to the user's experience level across all 7 PM competency areas. Evaluates user responses, provides detailed feedback, and suggests improvements.",
+  "agent_type": "json",
+  "accessor": "result",
+  "auto_generated": true,
+  "response_schema": {
+    "response": "string",
+    "score": "string",
+    "feedback_summary": "string",
+    "exercise_topic": "string",
+    "exercise_number": "string",
+    "difficulty_level": "string"
+  },
+  "example_response": {
+    "response": "The tutor's response including exercise content, feedback, and guidance",
+    "score": "Score out of 10 for the user's response, or empty if presenting a new exercise",
+    "feedback_summary": "Brief summary of feedback on the user's response",
+    "exercise_topic": "The current exercise topic area",
+    "exercise_number": "Current exercise number in the sequence",
+    "difficulty_level": "Beginner, Intermediate, or Advanced"
+  }
+}

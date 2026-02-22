@@ -1,0 +1,14 @@
+{
+  "agents": {
+    "pm_tutor_agent": {
+      "agent_id": "699a8dc8e6195f9129d6b906",
+      "name": "PM Tutor Agent"
+    },
+    "pm_knowledge_agent": {
+      "agent_id": "699a8dc9c2eec05acd279dc7",
+      "name": "PM Knowledge Agent",
+      "rag_id": "699a8da43dc9e9e5282826a2"
+    }
+  },
+  "rag_id": "699a8da43dc9e9e5282826a2"
+}
