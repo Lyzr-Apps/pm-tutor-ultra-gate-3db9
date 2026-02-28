@@ -1,0 +1,180 @@
+PRODUCT DESIGN INTERVIEW QUESTIONS — COMPREHENSIVE GUIDE
+
+========================================
+CATEGORY 1: PRODUCT DESIGN
+========================================
+
+Product Design questions test your ability to think from the user's perspective, define problems clearly, generate creative solutions, and prioritize ruthlessly. These are the most common PM interview question type.
+
+========================================
+THE PRODUCT DESIGN FRAMEWORK (Step-by-Step)
+========================================
+
+STEP 0: CLARIFY THE QUESTION
+Before diving in, always clarify the scope. Ask 2-3 smart questions:
+- What platform are we designing for? (mobile, web, hardware)
+- Are we designing from scratch or improving an existing product?
+- Is there a specific user segment or market in mind?
+- What is the company's primary business model?
+- Are there any constraints I should be aware of? (time, budget, tech)
+
+Tips:
+- Don't ask more than 3 clarification questions — it wastes time.
+- Frame questions to show product thinking, not just information gathering.
+- If the interviewer says "it's up to you," make an assumption and state it clearly.
+
+STEP 1: DEFINE THE USER
+Identify 2-4 user segments. For each segment, describe:
+A. Who they are (demographics, psychographics)
+B. Their primary goals and motivations
+C. Their pain points and frustrations
+D. How they currently solve the problem (existing alternatives)
+
+Example User Segments for "Design a travel app":
+1. Budget Backpackers — Young travelers (18-28) seeking cheap flights and hostels. Motivated by experiences over luxury. Pain: comparing prices across platforms is time-consuming.
+2. Business Travelers — Professionals (30-55) who travel weekly. Need seamless booking, expense tracking, and loyalty program integration. Pain: managing itineraries across multiple tools.
+3. Family Vacation Planners — Parents (30-50) planning annual trips. Need kid-friendly options, group booking, and safety information. Pain: coordinating preferences for multiple family members.
+
+Then SELECT ONE user segment to focus on. Explain why:
+"I'll focus on Budget Backpackers because they represent the largest growth segment and have the most unmet needs in the current market."
+
+STEP 2: MAP THE USER JOURNEY
+For your chosen user, map out the end-to-end experience:
+
+A. Awareness — How do they discover the need? What triggers them?
+B. Consideration — How do they evaluate options? What information do they need?
+C. Decision — What drives their final choice? What are the conversion barriers?
+D. Usage — What is the core experience? What are the key interaction moments?
+E. Retention — What brings them back? What creates habit loops?
+
+For each stage, identify:
+1. User actions (what they do)
+2. User thoughts (what they think)
+3. Pain points (what frustrates them)
+4. Opportunities (where we can add value)
+
+STEP 3: IDENTIFY PAIN POINTS AND OPPORTUNITIES
+From the user journey, extract the top 3-5 pain points:
+1. Rank them by severity (how much pain does this cause?)
+2. Rank them by frequency (how often does this occur?)
+3. Rank them by breadth (how many users experience this?)
+
+Use a simple 2x2 matrix: High Severity + High Frequency = Top Priority
+
+STEP 4: GENERATE SOLUTIONS
+For each top pain point, brainstorm 2-3 solution ideas:
+- Think about different interaction models (voice, touch, gesture, AI)
+- Consider both incremental improvements and bold new approaches
+- Reference analogies from other industries or products
+
+Then prioritize solutions using:
+- Impact: How much does this reduce the pain point? (High/Medium/Low)
+- Feasibility: How hard is this to build? (Easy/Medium/Hard)
+- Differentiation: Does this set us apart from competitors?
+
+Select your TOP 2-3 solutions to present in detail.
+
+STEP 5: DEFINE THE SOLUTION
+For each selected solution, describe:
+A. Feature name and one-line description
+B. How it works (user flow in 3-5 steps)
+C. Why it solves the pain point
+D. Key design decisions and tradeoffs
+E. What success looks like (how you'd measure it)
+
+STEP 6: DEFINE SUCCESS METRICS
+Choose 2-4 metrics to measure the product's success:
+
+Primary Metric (North Star):
+- The single metric that best captures value delivered to users
+- Example: "Weekly active trips planned" for a travel app
+
+Secondary Metrics:
+- Engagement: DAU/MAU ratio, session length, feature adoption rate
+- Conversion: Sign-up to first booking rate, search to booking rate
+- Retention: D7/D30 retention, repeat booking rate
+- Revenue: Average booking value, revenue per user
+
+Counter Metrics (guardrails):
+- Metrics that ensure you're not gaming the primary metric
+- Example: Customer satisfaction score, support ticket volume
+
+========================================
+COMMON PRODUCT DESIGN QUESTIONS
+========================================
+
+1. Design a product for [user type] to [goal]
+   - "Design a fitness app for senior citizens"
+   - "Design a product to help remote teams collaborate"
+   - "Design a grocery shopping experience for busy parents"
+
+2. Improve [existing product]
+   - "How would you improve Instagram for creators?"
+   - "How would you improve the Uber driver experience?"
+   - "How would you improve Google Maps for tourists?"
+
+3. Design a [specific feature]
+   - "Design a notification system for a healthcare app"
+   - "Design a search experience for an e-commerce platform"
+   - "Design an onboarding flow for a productivity tool"
+
+========================================
+FAVORITE PRODUCT QUESTION FRAMEWORK
+========================================
+
+When asked "What's your favorite product and how would you improve it?":
+
+1. CHOOSE YOUR PRODUCT WISELY
+   - Pick a product you genuinely use and love
+   - Avoid overly common answers (don't say "Google" or "iPhone" without a unique angle)
+   - Choose something that shows your product taste and values
+   - Best choices: Products with clear improvement opportunities that you have personal experience with
+
+2. EXPLAIN WHY YOU LOVE IT
+   A. What problem does it solve?
+   B. Who is it for?
+   C. What makes it uniquely good? (What's the "magic moment"?)
+   D. What is the core value proposition?
+
+   Example: "I love Notion because it solved the fragmentation problem — I used to juggle 5 different tools for notes, docs, tasks, and wikis. Notion unified everything into one flexible workspace. The magic moment is when you realize you can build any workflow you need with just blocks and databases."
+
+3. IDENTIFY AN IMPROVEMENT AREA
+   A. State the specific pain point you've experienced
+   B. Explain who else is affected by this problem
+   C. Quantify the impact if possible
+   D. Show that this aligns with the company's goals
+
+4. PROPOSE YOUR SOLUTION
+   A. Describe the feature or change in detail
+   B. Walk through the user flow step by step
+   C. Explain the design decisions you made
+   D. Address potential tradeoffs
+   E. Describe how you would test and validate this
+
+5. DEFINE SUCCESS
+   - What metrics would you track?
+   - What does success look like in 3 months? 6 months?
+   - What are the risks and how would you mitigate them?
+
+Tips:
+- Practice 2-3 different products so you have options
+- Have specific metrics and numbers ready
+- Show that you think about edge cases and tradeoffs
+- Demonstrate empathy for different user types
+- Connect improvements to business value, not just user delight
+- Be authentic — interviewers can tell when you're faking enthusiasm
+
+========================================
+PRODUCT DESIGN TIPS AND BEST PRACTICES
+========================================
+
+1. Always start with the user, never with the solution
+2. Be specific — vague answers don't impress
+3. Use numbers and data points when possible (even estimates)
+4. Think about edge cases and accessibility
+5. Consider the business model and how your solution creates value
+6. Show prioritization skills — you can't solve everything
+7. Mention tradeoffs explicitly — show mature product thinking
+8. Practice thinking out loud — the process matters more than the answer
+9. Time management: Spend 30% on framing, 40% on solutions, 30% on metrics
+10. Draw or sketch when possible — visual thinking is a PM superpower

@@ -1,0 +1,215 @@
+ANALYTICAL AND METRICS INTERVIEW QUESTIONS — COMPREHENSIVE GUIDE
+
+========================================
+CATEGORY 3: ANALYTICAL / METRICS
+========================================
+
+Analytical questions test your ability to think quantitatively, define meaningful metrics, diagnose problems using data, and design experiments. PMs are expected to be data-informed (not data-driven) and use metrics to guide product decisions.
+
+========================================
+THE ANALYTICAL FRAMEWORK
+========================================
+
+STEP 1: UNDERSTAND THE PRODUCT AND BUSINESS MODEL
+Before defining any metric, understand:
+- What is the product's core value proposition?
+- How does the company make money?
+- What stage is the product at? (launch, growth, mature)
+- Who are the primary users and what are their goals?
+
+STEP 2: DEFINE THE METRIC HIERARCHY
+
+A. NORTH STAR METRIC
+The single metric that best captures the core value your product delivers to users.
+
+Properties of a good North Star Metric:
+1. Reflects customer value (not just business value)
+2. Leading indicator of revenue (not lagging)
+3. Measurable and actionable
+4. Teams can influence it directly
+5. Doesn't plateau too quickly
+
+Examples by product type:
+- Social Media: Daily Active Users (DAU) or Time Spent
+- Marketplace: Number of Transactions or Gross Merchandise Value (GMV)
+- SaaS: Weekly Active Users or Feature Adoption Rate
+- Content Platform: Content Consumed per User per Day
+- Communication: Messages Sent per User per Day
+- Subscription: Monthly Recurring Revenue (MRR) or Net Revenue Retention
+
+B. INPUT METRICS (Leading Indicators)
+Metrics you can directly influence that drive the North Star:
+- Acquisition: New sign-ups, app downloads, website visits
+- Activation: Users who complete onboarding, first value action
+- Engagement: Sessions per user, actions per session, feature usage
+- Retention: D1/D7/D30 retention, churn rate, reactivation rate
+
+C. OUTPUT METRICS (Lagging Indicators)
+Business outcomes that result from good input metrics:
+- Revenue: ARPU, LTV, conversion rate, subscription renewals
+- Profitability: CAC/LTV ratio, gross margin, unit economics
+- Growth: MoM growth rate, viral coefficient, organic vs. paid mix
+
+D. COUNTER METRICS (Guardrails)
+Ensure you're not gaming the primary metric:
+- Quality: Customer satisfaction (CSAT), Net Promoter Score (NPS)
+- Safety: Error rates, support tickets, escalation rate
+- Health: Page load time, crash rate, availability
+
+========================================
+METRIC DIAGNOSIS QUESTIONS
+========================================
+
+When asked "Metric X dropped by Y%. What happened?":
+
+THE DIAGNOSTIC FRAMEWORK:
+
+STEP 1: CLARIFY
+- Which metric specifically? How is it defined?
+- Over what time period? Is it sudden or gradual?
+- Is it across all users or a specific segment?
+- Is it a relative or absolute change?
+
+STEP 2: RULE OUT EXTERNAL FACTORS
+- Seasonality: Is this expected for this time of year?
+- Market events: Competitor launch, news, economic changes?
+- Technical issues: Outages, bugs, data pipeline errors?
+- Measurement changes: Did the definition or tracking change?
+
+STEP 3: SEGMENT THE DATA
+Break down the metric by:
+- Platform (iOS vs. Android vs. Web)
+- Geography (US vs. International)
+- User cohort (New vs. Existing vs. Reactivated)
+- Acquisition channel (Organic vs. Paid vs. Referral)
+- User segment (Free vs. Premium, Power vs. Casual)
+- Feature/Flow (Which specific area is affected?)
+
+STEP 4: IDENTIFY THE ROOT CAUSE
+Use the funnel to isolate where the drop is happening:
+A. Top of funnel (fewer users coming in)
+B. Middle of funnel (lower conversion between steps)
+C. Bottom of funnel (fewer users completing the desired action)
+
+For each level, ask:
+- What changed recently? (product changes, marketing changes, external changes)
+- Is there a pattern? (specific cohort, time of day, device type)
+- What does qualitative data say? (support tickets, user feedback, app reviews)
+
+STEP 5: RECOMMEND ACTIONS
+Based on the root cause:
+A. Immediate: Quick fixes, rollbacks, hotfixes
+B. Short-term: A/B tests, feature adjustments, messaging changes
+C. Long-term: Structural improvements, new features, strategy shifts
+
+Always recommend monitoring the metric after action with a specific cadence.
+
+========================================
+A/B TESTING AND EXPERIMENTATION
+========================================
+
+THE EXPERIMENTATION FRAMEWORK:
+
+1. HYPOTHESIS
+- Clear statement: "We believe that [change] will [impact] because [reason]"
+- Must be testable and falsifiable
+- Should connect to a specific metric
+
+2. EXPERIMENT DESIGN
+A. What are you testing? (One variable at a time)
+B. Who is the audience? (Target segment, sample size)
+C. What is the control? (Current experience)
+D. What is the treatment? (New experience)
+E. How long should it run? (Statistical significance, practical duration)
+F. What metric are you measuring? (Primary and secondary)
+
+3. SAMPLE SIZE AND DURATION
+- Use statistical power analysis to determine sample size
+- Rule of thumb: Need at least 1,000 users per variant for most metrics
+- Run for at least 1-2 full business cycles (weekly patterns matter)
+- Account for novelty effects (users react differently to new things initially)
+
+4. ANALYZING RESULTS
+A. Is the result statistically significant? (p < 0.05)
+B. Is the effect size practically meaningful? (Is the improvement worth the effort?)
+C. Are there segment-level differences? (Does it help some users but hurt others?)
+D. What do counter metrics show? (Did we harm anything else?)
+
+5. DECISION FRAMEWORK
+- Clear win: Ship it, monitor for 2 weeks
+- Ambiguous: Run longer, test with more users, or test a different variant
+- Clear loss: Don't ship, learn from the failure, iterate on the hypothesis
+- Mixed results: Segment-level analysis, consider personalized rollout
+
+========================================
+KEY METRICS FRAMEWORKS
+========================================
+
+1. PIRATE METRICS (AARRR)
+Dave McClure's framework for startup metrics:
+- Acquisition: How do users find you?
+- Activation: Do users have a great first experience?
+- Retention: Do users come back?
+- Referral: Do users tell others?
+- Revenue: Do users pay?
+
+Use when: Identifying the most impactful area to focus on across the user lifecycle
+
+2. HEART FRAMEWORK (Google)
+For measuring user experience quality:
+- Happiness: User satisfaction, NPS, CSAT
+- Engagement: Frequency, depth, breadth of usage
+- Adoption: New user uptake, feature discovery rate
+- Retention: Continued usage over time
+- Task Success: Completion rate, time-on-task, error rate
+
+Use when: Measuring product quality and UX improvements
+
+3. RICE SCORING
+For prioritizing features and initiatives:
+- Reach: How many users will this affect? (per quarter)
+- Impact: How much will each user be impacted? (0.25, 0.5, 1, 2, 3)
+- Confidence: How confident are you in the estimates? (0-100%)
+- Effort: How many person-months will it take?
+- Score = (Reach x Impact x Confidence) / Effort
+
+4. ICE SCORING
+Simpler alternative to RICE:
+- Impact: How much will this move the needle? (1-10)
+- Confidence: How sure are you of the impact? (1-10)
+- Ease: How easy is this to implement? (1-10)
+- Score = (Impact + Confidence + Ease) / 3
+
+5. UNIT ECONOMICS
+Critical metrics for business viability:
+- CAC (Customer Acquisition Cost): Total sales & marketing spend / new customers
+- LTV (Customer Lifetime Value): Average revenue per customer x average customer lifespan
+- LTV/CAC Ratio: Should be > 3 for healthy business
+- Payback Period: Time to recover CAC
+- Gross Margin: (Revenue - COGS) / Revenue
+
+========================================
+COMMON ANALYTICAL QUESTIONS
+========================================
+
+1. Metric Definition: "What metrics would you track for [product/feature]?"
+2. Metric Diagnosis: "DAU dropped 20% this week. What would you investigate?"
+3. Experiment Design: "How would you test whether [feature] improves [metric]?"
+4. Goal Setting: "How would you set goals for [team/product] this quarter?"
+5. Data Interpretation: "Here's a chart showing [data]. What do you observe?"
+6. Tradeoff Analysis: "Feature A improves engagement but reduces revenue. What do you do?"
+
+========================================
+ANALYTICAL TIPS
+========================================
+
+1. Always define the metric precisely before analyzing it
+2. Think about causation vs. correlation — A/B tests establish causation, observational data only shows correlation
+3. Consider sample bias — who is and isn't included in the data
+4. Use both quantitative (what happened) and qualitative (why it happened) data
+5. Don't over-optimize a single metric — think about the ecosystem
+6. Be comfortable saying "I don't know, here's how I'd find out"
+7. Practice estimation — Fermi problems build analytical muscle
+8. Think about leading vs. lagging indicators
+9. Consider the cost of measurement — some metrics are expensive to track accurately
+10. Remember: The goal is insight that drives action, not just analysis

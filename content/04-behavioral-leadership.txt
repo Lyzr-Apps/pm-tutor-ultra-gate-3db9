@@ -1,0 +1,259 @@
+BEHAVIORAL AND LEADERSHIP INTERVIEW QUESTIONS — COMPREHENSIVE GUIDE
+
+========================================
+CATEGORY 4: BEHAVIORAL / LEADERSHIP
+========================================
+
+Behavioral questions test your soft skills, leadership style, conflict resolution, stakeholder management, and how you handle real-world PM challenges. These questions use the premise that past behavior predicts future performance.
+
+========================================
+THE BEHAVIORAL ANSWER FRAMEWORK (STAR+)
+========================================
+
+Use the STAR+ method for all behavioral questions:
+
+S — SITUATION
+- Set the scene: company, team, product, timeline
+- Provide enough context for the interviewer to understand the stakes
+- Keep it concise — 2-3 sentences max
+
+T — TASK
+- What was your specific role and responsibility?
+- What was the goal or objective?
+- What were the constraints or challenges?
+
+A — ACTION
+- What did YOU specifically do? (Use "I" not "we")
+- Describe 3-5 specific actions you took
+- Show your decision-making process
+- Explain WHY you chose that approach
+
+R — RESULT
+- What was the outcome? Quantify whenever possible
+- What impact did it have on the business/team/users?
+- Even if the outcome was negative, show what you learned
+
++ — REFLECTION
+- What would you do differently?
+- What did you learn from this experience?
+- How has this shaped your approach going forward?
+
+========================================
+STAKEHOLDER MANAGEMENT
+========================================
+
+COMMON QUESTIONS:
+- "Tell me about a time you disagreed with an executive"
+- "How do you get buy-in from engineers/designers/leadership?"
+- "Tell me about a time you had to say no to a stakeholder"
+- "How do you manage competing priorities from different teams?"
+
+KEY PRINCIPLES:
+
+1. MANAGING UP (Executives and Leadership)
+   A. Understand their priorities and concerns
+   B. Frame everything in terms of business impact
+   C. Come with data and options, not just problems
+   D. Be transparent about tradeoffs and risks
+   E. Disagree respectfully, commit fully once decided
+
+2. MANAGING ACROSS (Cross-functional Partners)
+   A. Build relationships before you need them
+   B. Understand each team's goals and constraints
+   C. Find win-win solutions whenever possible
+   D. Over-communicate status, blockers, and changes
+   E. Give credit generously and publicly
+
+3. MANAGING DOWN (Team Members)
+   A. Set clear context and expectations
+   B. Empower the team to make decisions
+   C. Remove blockers proactively
+   D. Provide regular, specific feedback
+   E. Celebrate wins and learn from failures together
+
+4. SAYING NO EFFECTIVELY
+   A. Acknowledge the request and show you understand its value
+   B. Explain the tradeoff — what you'd need to deprioritize
+   C. Offer alternatives that address the underlying need
+   D. Use data to support your reasoning
+   E. Escalate transparently if you can't reach agreement
+
+FRAMEWORK FOR PRIORITIZATION CONFLICTS:
+When multiple stakeholders want different things:
+1. Align on the shared goal (what does everyone agree on?)
+2. Make tradeoffs visible (if we do A, we can't do B this quarter)
+3. Use a prioritization framework (RICE, Impact vs. Effort)
+4. Let data break ties when possible
+5. Escalate to a decision-maker if consensus isn't possible
+
+========================================
+CONFLICT RESOLUTION
+========================================
+
+COMMON QUESTIONS:
+- "Tell me about a time you had a conflict with a colleague"
+- "How do you handle disagreements with your engineering lead?"
+- "Describe a situation where your team was divided on a decision"
+
+THE CONFLICT RESOLUTION FRAMEWORK:
+
+1. LISTEN FIRST
+   - Understand the other person's perspective fully
+   - Ask clarifying questions
+   - Show genuine empathy — they have reasons for their position
+
+2. IDENTIFY THE ROOT CAUSE
+   - Is this a disagreement about facts? (solvable with data)
+   - Is this a disagreement about values? (needs compromise)
+   - Is this a disagreement about process? (solvable with frameworks)
+   - Is this an emotional/interpersonal issue? (needs relationship repair)
+
+3. FIND COMMON GROUND
+   - What do both parties agree on?
+   - What is the shared goal?
+   - Build from agreement, not disagreement
+
+4. PROPOSE SOLUTIONS
+   - Offer multiple options
+   - Show willingness to compromise on execution (not on goals)
+   - Suggest experiments or time-boxed trials
+   - Agree on how you'll evaluate success
+
+5. FOLLOW UP
+   - Document the decision and rationale
+   - Check in regularly on progress
+   - Acknowledge when the other person was right
+   - Build the relationship for future collaboration
+
+========================================
+LEADERSHIP AND INFLUENCE
+========================================
+
+COMMON QUESTIONS:
+- "Tell me about a time you led without authority"
+- "How do you motivate a team when morale is low?"
+- "Describe a time you drove a major initiative"
+- "How do you build trust with a new team?"
+
+KEY LEADERSHIP PRINCIPLES FOR PMs:
+
+1. LEAD WITH VISION
+   - Paint a compelling picture of the future
+   - Connect daily work to the bigger purpose
+   - Make the vision tangible with user stories and scenarios
+   - Repeat the vision consistently — people need to hear it 7+ times
+
+2. LEAD WITH DATA
+   - Use data to align people around facts
+   - Let data inform decisions, not just validate assumptions
+   - Share data transparently with the team
+   - When data is ambiguous, be honest about uncertainty
+
+3. LEAD WITH EMPATHY
+   - Understand each team member's motivations and constraints
+   - Adapt your communication style to your audience
+   - Acknowledge hard work and celebrate progress
+   - Be vulnerable — admit mistakes and ask for help
+
+4. LEAD WITH CLARITY
+   - Be explicit about priorities and expectations
+   - Make decisions promptly — indecision kills momentum
+   - Communicate the "why" behind every decision
+   - Create clear frameworks for the team to make decisions autonomously
+
+5. INFLUENCE WITHOUT AUTHORITY
+   Techniques that work:
+   A. Build credibility through expertise and preparation
+   B. Use storytelling to make data come alive
+   C. Find champions and allies before big meetings
+   D. Create shared artifacts (roadmaps, specs, prototypes) that people can react to
+   E. Make it easy for people to say yes — do the work upfront
+   F. Use social proof and precedent when applicable
+
+========================================
+FAILURE AND LEARNING
+========================================
+
+COMMON QUESTIONS:
+- "Tell me about your biggest failure"
+- "Describe a product that didn't succeed"
+- "What's the biggest mistake you've made as a PM?"
+- "Tell me about a time you received difficult feedback"
+
+THE FAILURE ANSWER FRAMEWORK:
+
+1. OWN IT
+   - Take personal responsibility — no blame
+   - Be specific about what went wrong
+   - Show that you recognized the failure early (or acknowledge that you didn't)
+
+2. EXPLAIN THE CONTEXT
+   - What were you trying to achieve?
+   - What decisions did you make and why?
+   - What information were you working with at the time?
+
+3. DESCRIBE THE IMPACT
+   - What was the consequence of the failure?
+   - Who was affected?
+   - How serious was it?
+
+4. SHARE WHAT YOU LEARNED
+   - What specific lessons did you take away?
+   - How has it changed your approach?
+   - Have you applied these lessons successfully since?
+
+5. SHOW GROWTH
+   - Demonstrate that you've evolved as a PM
+   - Give a concrete example of applying the lesson
+   - Show self-awareness without being self-deprecating
+
+Tips for Failure Questions:
+- Choose a real, meaningful failure (not a humble brag like "I worked too hard")
+- Show vulnerability — it builds trust
+- Focus 70% of your answer on what you learned, not on the failure itself
+- Pick failures where you were an active participant, not a passive observer
+- Don't choose failures that question your competence fundamentally
+
+========================================
+BEHAVIORAL QUESTION CATEGORIES AND EXAMPLES
+========================================
+
+1. TEAMWORK & COLLABORATION
+   - "Tell me about a time you worked with a difficult team member"
+   - "How do you build alignment across engineering, design, and data science?"
+   - "Describe a cross-functional project you led"
+
+2. DECISION MAKING
+   - "Tell me about a difficult decision you made with incomplete information"
+   - "How do you balance speed vs. quality?"
+   - "Describe a time you changed your mind on a product decision"
+
+3. COMMUNICATION
+   - "How do you communicate bad news to stakeholders?"
+   - "Tell me about a time you had to present to senior leadership"
+   - "How do you keep remote teams aligned?"
+
+4. ADAPTABILITY
+   - "Tell me about a time priorities shifted suddenly"
+   - "How do you handle ambiguity?"
+   - "Describe a time you had to learn something quickly"
+
+5. CUSTOMER FOCUS
+   - "Tell me about a time you advocated for the user"
+   - "How do you balance user needs with business needs?"
+   - "Describe a time user research changed your product direction"
+
+========================================
+BEHAVIORAL TIPS
+========================================
+
+1. Prepare 8-10 stories that cover different competencies — you can adapt them to various questions
+2. Keep stories concise (2-3 minutes) — the interviewer wants to ask follow-ups
+3. Always use specific examples, never hypotheticals ("I would..." is weaker than "I did...")
+4. Show self-awareness — great PMs know their strengths AND weaknesses
+5. Quantify impact whenever possible (revenue, users, time saved, NPS improvement)
+6. Practice out loud — behavioral answers need to flow naturally
+7. Be authentic — rehearsed answers that sound scripted are worse than genuine ones
+8. Have a mix of success stories and failure stories ready
+9. Tailor your stories to the company's values and culture
+10. End every answer with what you learned or how you've grown

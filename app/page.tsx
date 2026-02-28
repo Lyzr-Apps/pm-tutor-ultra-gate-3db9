@@ -13,7 +13,7 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { Separator } from '@/components/ui/separator'
 import { Skeleton } from '@/components/ui/skeleton'
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/components/ui/tooltip'
-import { RiDashboardLine, RiBookOpenLine, RiSearchLine, RiBarChartLine, RiSendPlaneFill, RiUploadLine, RiCheckLine, RiStarLine, RiArrowRightLine, RiMenuLine, RiCloseLine, RiLightbulbLine, RiTrophyLine, RiFireLine, RiQuestionLine, RiBookmarkLine, RiFileTextLine, RiDeleteBinLine } from 'react-icons/ri'
+import { RiDashboardLine, RiBookOpenLine, RiSearchLine, RiBarChartLine, RiSendPlaneFill, RiUploadLine, RiCheckLine, RiStarLine, RiArrowRightLine, RiMenuLine, RiCloseLine, RiLightbulbLine, RiTrophyLine, RiFireLine, RiQuestionLine, RiBookmarkLine, RiFileTextLine, RiDeleteBinLine, RiPencilRulerLine, RiTeamLine, RiSettings3Line } from 'react-icons/ri'
 
 // ===================== CONSTANTS =====================
 
@@ -22,22 +22,24 @@ const KB_AGENT_ID = '699a8dc9c2eec05acd279dc7'
 const RAG_ID = '699a8da43dc9e9e5282826a2'
 
 const PM_MODULES = [
-  { id: 'product-strategy', name: 'Product Strategy', icon: 'strategy' },
-  { id: 'roadmapping', name: 'Roadmapping & Prioritization', icon: 'roadmap' },
-  { id: 'user-research', name: 'User Research & Discovery', icon: 'research' },
-  { id: 'metrics', name: 'Metrics & Analytics', icon: 'metrics' },
-  { id: 'stakeholder', name: 'Stakeholder Management', icon: 'stakeholder' },
-  { id: 'technical-pm', name: 'Technical Product Management', icon: 'technical' },
-  { id: 'launch', name: 'Product Launch & Go-to-Market', icon: 'launch' },
+  { id: 'product-design', name: 'Product Design', icon: 'design', description: 'User-centric design thinking, user journeys, pain point analysis, and solution generation' },
+  { id: 'product-strategy', name: 'Product Strategy', icon: 'strategy', description: 'Market analysis, competitive positioning, business models, and growth strategy' },
+  { id: 'analytical-metrics', name: 'Analytical / Metrics', icon: 'metrics', description: 'Metric definition, data diagnosis, A/B testing, and experiment design' },
+  { id: 'behavioral-leadership', name: 'Behavioral / Leadership', icon: 'leadership', description: 'Stakeholder management, conflict resolution, STAR stories, and influence' },
+  { id: 'technical-execution', name: 'Technical / Execution', icon: 'technical', description: 'PRD writing, roadmapping, prioritization frameworks, and launch planning' },
 ]
 
 const SUGGESTED_QUESTIONS = [
   'What is the RICE framework?',
-  'Explain Jobs-to-be-Done',
+  'Explain the Product Design interview framework',
   'How to calculate TAM/SAM/SOM?',
   'What is the Kano Model?',
-  'Explain OKRs for product teams',
-  'How to run effective A/B tests?',
+  'How to use the STAR+ method for behavioral questions?',
+  'Explain the AARRR Pirate Metrics framework',
+  'What are Porter\'s Five Forces?',
+  'How to approach a Favorite Product question?',
+  'Build vs Buy vs Partner - how to decide?',
+  'What is the HEART framework by Google?',
 ]
 
 function generateSessionId() {
@@ -91,54 +93,47 @@ interface KBDoc {
 // ===================== SAMPLE DATA =====================
 
 const SAMPLE_PROGRESS: Record<string, ModuleProgress> = {
+  'product-design': {
+    exercises: [
+      { score: '8', feedback: 'Strong user journey mapping and pain point identification', date: '2026-02-20', topic: 'Product Design', exerciseNumber: '1' },
+      { score: '7', feedback: 'Good solution generation but missed edge cases', date: '2026-02-21', topic: 'Product Design', exerciseNumber: '2' },
+      { score: '9', feedback: 'Excellent favorite product answer with clear metrics', date: '2026-02-22', topic: 'Product Design', exerciseNumber: '3' },
+    ],
+    lastActivity: '2026-02-22',
+  },
   'product-strategy': {
     exercises: [
-      { score: '8', feedback: 'Strong strategic thinking', date: '2026-02-20', topic: 'Product Strategy', exerciseNumber: '1' },
-      { score: '7', feedback: 'Good market analysis', date: '2026-02-21', topic: 'Product Strategy', exerciseNumber: '2' },
-    ],
-    lastActivity: '2026-02-21',
-  },
-  'roadmapping': {
-    exercises: [
-      { score: '9', feedback: 'Excellent prioritization', date: '2026-02-19', topic: 'Roadmapping & Prioritization', exerciseNumber: '1' },
-    ],
-    lastActivity: '2026-02-19',
-  },
-  'user-research': {
-    exercises: [
-      { score: '6', feedback: 'Needs more user empathy', date: '2026-02-18', topic: 'User Research & Discovery', exerciseNumber: '1' },
-      { score: '7', feedback: 'Improved methodology', date: '2026-02-19', topic: 'User Research & Discovery', exerciseNumber: '2' },
-      { score: '8', feedback: 'Great interview questions', date: '2026-02-20', topic: 'User Research & Discovery', exerciseNumber: '3' },
+      { score: '7', feedback: 'Good market sizing but weak competitive analysis', date: '2026-02-19', topic: 'Product Strategy', exerciseNumber: '1' },
+      { score: '8', feedback: 'Strong strategic pillars and GTM thinking', date: '2026-02-20', topic: 'Product Strategy', exerciseNumber: '2' },
     ],
     lastActivity: '2026-02-20',
   },
-  'metrics': {
-    exercises: [],
-    lastActivity: '',
-  },
-  'stakeholder': {
+  'analytical-metrics': {
     exercises: [
-      { score: '7', feedback: 'Good communication plan', date: '2026-02-17', topic: 'Stakeholder Management', exerciseNumber: '1' },
+      { score: '6', feedback: 'Metric diagnosis lacked segmentation depth', date: '2026-02-18', topic: 'Analytical / Metrics', exerciseNumber: '1' },
+      { score: '8', feedback: 'Solid A/B test design with proper controls', date: '2026-02-19', topic: 'Analytical / Metrics', exerciseNumber: '2' },
+    ],
+    lastActivity: '2026-02-19',
+  },
+  'behavioral-leadership': {
+    exercises: [
+      { score: '7', feedback: 'Good STAR structure but needs more quantified results', date: '2026-02-17', topic: 'Behavioral / Leadership', exerciseNumber: '1' },
     ],
     lastActivity: '2026-02-17',
   },
-  'technical-pm': {
-    exercises: [],
-    lastActivity: '',
-  },
-  'launch': {
+  'technical-execution': {
     exercises: [],
     lastActivity: '',
   },
 }
 
 const SAMPLE_TUTOR_MESSAGES: TutorMessage[] = [
-  { role: 'user', content: 'Start a new exercise for me. Topic: Product Strategy. Difficulty: Intermediate. Exercise number: 3.' },
+  { role: 'user', content: 'Start a new exercise for me. Topic: Product Design. Difficulty: Intermediate. Exercise number: 1.' },
   {
     role: 'assistant',
-    content: '## Exercise 3: Competitive Analysis\n\nYou are the PM for a B2B SaaS product in the project management space. A new competitor has entered the market with a product that undercuts your pricing by 40% while offering similar features.\n\n**Your task:**\n1. Outline your competitive response strategy\n2. Identify which customer segments are most at risk\n3. Propose 3 differentiation strategies\n4. Define metrics to track the competitive impact\n\nPlease provide a detailed response addressing all four points.',
-    exercise_topic: 'Product Strategy',
-    exercise_number: '3',
+    content: '## Exercise 1: Design a Travel App for Budget Backpackers\n\nYou are a PM at a travel tech startup. Your CEO wants to build a mobile app specifically targeting budget-conscious backpackers aged 18-28 who travel internationally.\n\n**Your task — follow the Product Design Framework:**\n\n1. **Define 2-3 user segments** within the budget backpacker category. For each, describe their goals, pain points, and current alternatives.\n2. **Select one segment** and explain why you chose them.\n3. **Map the user journey** for your chosen segment (Awareness through Retention).\n4. **Identify the top 3 pain points** ranked by severity and frequency.\n5. **Propose 2 solution ideas** for the highest-priority pain point, and explain which you would prioritize and why.\n6. **Define your success metrics** — North Star, 2 secondary metrics, and 1 counter metric.\n\nTake your time and be specific. I will evaluate your response on completeness, user empathy, strategic thinking, and framework application.',
+    exercise_topic: 'Product Design',
+    exercise_number: '1',
     difficulty_level: 'Intermediate',
   },
 ]
@@ -189,13 +184,11 @@ function formatInline(text: string) {
 
 function getModuleIcon(iconType: string) {
   switch (iconType) {
+    case 'design': return <RiPencilRulerLine className="w-5 h-5" />
     case 'strategy': return <RiLightbulbLine className="w-5 h-5" />
-    case 'roadmap': return <RiBarChartLine className="w-5 h-5" />
-    case 'research': return <RiSearchLine className="w-5 h-5" />
     case 'metrics': return <RiBarChartLine className="w-5 h-5" />
-    case 'stakeholder': return <RiBookmarkLine className="w-5 h-5" />
-    case 'technical': return <RiFileTextLine className="w-5 h-5" />
-    case 'launch': return <RiFireLine className="w-5 h-5" />
+    case 'leadership': return <RiTeamLine className="w-5 h-5" />
+    case 'technical': return <RiSettings3Line className="w-5 h-5" />
     default: return <RiBookOpenLine className="w-5 h-5" />
   }
 }
@@ -502,7 +495,7 @@ function DashboardScreen({
 
       {/* Module Cards */}
       <div>
-        <h3 className="text-lg font-serif font-bold mb-4">Competency Areas</h3>
+        <h3 className="text-lg font-serif font-bold mb-4">Interview Categories</h3>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {PM_MODULES.map((mod) => {
             const prog = getModuleProgress(mod.id, data)
@@ -527,6 +520,9 @@ function DashboardScreen({
                       </div>
                     </div>
                   </div>
+                  {'description' in mod && mod.description && (
+                    <p className="text-xs text-muted-foreground mb-3 leading-relaxed">{mod.description}</p>
+                  )}
                   <div className="mb-4">
                     <div className="flex justify-between text-xs text-muted-foreground mb-1">
                       <span>Progress</span>

@@ -1,0 +1,270 @@
+TECHNICAL AND EXECUTION INTERVIEW QUESTIONS — COMPREHENSIVE GUIDE
+
+========================================
+CATEGORY 5: TECHNICAL / EXECUTION
+========================================
+
+Technical and Execution questions test your ability to work effectively with engineering teams, understand system architecture at a high level, write clear specifications, manage timelines, and handle the practical challenges of shipping products.
+
+========================================
+THE TECHNICAL PM FRAMEWORK
+========================================
+
+STEP 1: UNDERSTAND THE TECHNICAL LANDSCAPE
+A PM doesn't need to code, but must understand:
+
+A. System Architecture Basics
+- Client-server architecture: frontend (what users see) vs. backend (servers, databases, APIs)
+- APIs (Application Programming Interfaces): How different systems communicate
+- Databases: SQL (structured, relational) vs. NoSQL (flexible, document-based)
+- Cloud infrastructure: AWS, GCP, Azure — understand the basic services
+- Microservices vs. Monolith: Tradeoffs in system design
+
+B. Mobile vs. Web
+- App store review processes and timelines
+- Push notification capabilities and limitations
+- Offline functionality considerations
+- Platform-specific design guidelines (iOS HIG, Material Design)
+- Progressive Web Apps (PWAs) as a middle ground
+
+C. Data and ML Fundamentals
+- How data pipelines work (collection, storage, processing, analysis)
+- Basic ML concepts: training data, models, features, prediction vs. classification
+- When to use ML vs. rules-based approaches
+- Data privacy and compliance (GDPR, CCPA, COPPA)
+
+D. Security Basics
+- Authentication (who you are) vs. Authorization (what you can do)
+- Encryption (data at rest vs. data in transit)
+- Common vulnerabilities (XSS, SQL injection, CSRF)
+- Privacy by design principles
+
+========================================
+PRODUCT SPECIFICATION (PRD) FRAMEWORK
+========================================
+
+How to write a Product Requirements Document:
+
+1. PROBLEM STATEMENT
+   - What problem are we solving? For whom?
+   - Why is this important now?
+   - What evidence supports this problem? (data, research, customer feedback)
+
+2. GOALS AND SUCCESS METRICS
+   - What does success look like?
+   - Primary metric and target
+   - Secondary metrics and guardrails
+   - Timeline for measuring success
+
+3. USER STORIES
+   - As a [user type], I want to [action], so that [benefit]
+   - Include edge cases and error states
+   - Prioritize: Must-have vs. Nice-to-have vs. Won't-do
+
+4. DETAILED REQUIREMENTS
+   - Functional requirements (what the system does)
+   - Non-functional requirements (performance, security, scalability)
+   - UX requirements (flows, wireframes, copy)
+   - Data requirements (what to track, what to store)
+
+5. TECHNICAL CONSIDERATIONS
+   - Architecture implications
+   - Dependencies on other teams or systems
+   - Migration or backward compatibility needs
+   - Performance requirements (latency, throughput)
+
+6. LAUNCH PLAN
+   - Rollout strategy (phased, feature flag, A/B test)
+   - Monitoring and alerting plan
+   - Rollback criteria and procedure
+   - Communication plan (internal and external)
+
+7. TIMELINE AND MILESTONES
+   - Key milestones with dates
+   - Dependencies and critical path
+   - Buffer for unknowns
+
+========================================
+ROADMAPPING AND PRIORITIZATION
+========================================
+
+COMMON QUESTIONS:
+- "How do you prioritize features for your roadmap?"
+- "You have 10 feature requests and capacity for 3. How do you decide?"
+- "How do you balance tech debt vs. new features?"
+- "How do you create a product roadmap?"
+
+PRIORITIZATION FRAMEWORKS:
+
+1. RICE FRAMEWORK (Detailed Application)
+   For each feature or initiative, score:
+   - Reach: Number of users affected per quarter (use actual data)
+   - Impact: Degree of impact per user (0.25 = minimal, 0.5 = low, 1 = medium, 2 = high, 3 = massive)
+   - Confidence: Your confidence in estimates (100% = high, 80% = medium, 50% = low)
+   - Effort: Person-months of work required
+
+   Calculate: RICE Score = (Reach x Impact x Confidence) / Effort
+   Rank features by score and discuss tradeoffs
+
+2. MoSCoW METHOD
+   Categorize all features:
+   - Must have: Non-negotiable for launch, core functionality
+   - Should have: Important but not critical, can launch without
+   - Could have: Nice to have, include if time permits
+   - Won't have: Out of scope for this cycle, may revisit later
+
+   Rule: Must-haves should be ~60% of capacity, Should-haves ~20%, Could-haves ~20%
+
+3. KANO MODEL
+   Categorize features by user satisfaction impact:
+   - Must-be (Basic): Expected features — absence causes dissatisfaction, presence doesn't delight
+   - One-dimensional (Performance): More is better — directly correlated with satisfaction
+   - Attractive (Delighters): Unexpected features — absence is okay, presence creates delight
+   - Indifferent: Users don't care either way
+   - Reverse: Some users actively dislike this feature
+
+   Strategy: Ensure all Must-be features first, then invest in Performance and Attractive features
+
+4. IMPACT vs. EFFORT MATRIX
+   Simple 2x2 grid:
+   - High Impact / Low Effort = Quick Wins (DO FIRST)
+   - High Impact / High Effort = Major Projects (PLAN AND INVEST)
+   - Low Impact / Low Effort = Fill-ins (DO IF TIME PERMITS)
+   - Low Impact / High Effort = Time Sinks (DON'T DO)
+
+5. WEIGHTED SCORING
+   Define your criteria and weights:
+   - Strategic alignment (25%)
+   - Customer impact (25%)
+   - Revenue potential (20%)
+   - Technical feasibility (15%)
+   - Competitive advantage (15%)
+
+   Score each feature 1-5 on each criterion, multiply by weight, sum for total score
+
+========================================
+TECHNICAL TRADEOFF QUESTIONS
+========================================
+
+COMMON QUESTIONS:
+- "How do you balance speed of delivery vs. code quality?"
+- "How do you decide when to take on tech debt?"
+- "Build vs. buy vs. partner — how do you decide?"
+- "How do you handle a project that's falling behind schedule?"
+
+BUILD vs. BUY vs. PARTNER FRAMEWORK:
+
+BUILD when:
+- It's core to your competitive advantage
+- No adequate solution exists in the market
+- You need deep customization and control
+- You have the engineering talent and capacity
+- Long-term cost of ownership is lower than alternatives
+
+BUY when:
+- It's not core to your differentiation
+- A proven, reliable solution exists
+- Time to market is critical
+- The vendor's roadmap aligns with your needs
+- Total cost of ownership (including integration and maintenance) is reasonable
+
+PARTNER when:
+- You need capabilities you can't build or buy
+- The partner has unique distribution, technology, or brand
+- There's mutual value creation
+- The relationship is strategic, not just transactional
+- You have clear governance and success criteria
+
+TECH DEBT DECISION FRAMEWORK:
+Treat tech debt like financial debt — sometimes it's strategic:
+1. Is this tech debt blocking current feature development?
+2. Is it causing reliability or performance issues for users?
+3. Will the cost of fixing it increase significantly over time?
+4. Can we address it incrementally, or does it require a big rewrite?
+
+Recommendation: Allocate 15-20% of engineering capacity to tech debt continuously
+
+========================================
+EXECUTION AND LAUNCH
+========================================
+
+PRODUCT LAUNCH CHECKLIST:
+
+PRE-LAUNCH (2-4 weeks before):
+1. Feature complete — all must-have requirements met
+2. QA complete — all critical and high-priority bugs fixed
+3. Performance tested — load testing, stress testing completed
+4. Security review — vulnerability assessment done
+5. Analytics instrumented — all tracking events verified
+6. Documentation ready — help articles, release notes, internal FAQs
+7. Support team briefed — training completed, escalation paths clear
+8. Marketing materials ready — blog posts, emails, social media assets
+9. Legal review complete — terms of service, privacy policy updated if needed
+10. Rollback plan documented — clear criteria and procedure
+
+LAUNCH DAY:
+1. Monitor key metrics in real-time
+2. Watch error rates and performance dashboards
+3. Check support ticket volume and sentiment
+4. Be available for immediate issues
+5. Communicate status to stakeholders regularly
+
+POST-LAUNCH (1-4 weeks after):
+1. Analyze metrics against goals
+2. Gather user feedback (surveys, interviews, reviews)
+3. Conduct launch retrospective with the team
+4. Plan iteration based on learnings
+5. Share results with the organization
+
+========================================
+ESTIMATION AND PLANNING
+========================================
+
+COMMON QUESTIONS:
+- "How would you estimate how long this project would take?"
+- "How do you handle scope creep?"
+- "How do you manage projects that are behind schedule?"
+
+ESTIMATION BEST PRACTICES:
+
+1. BREAK IT DOWN
+   - Decompose the project into smallest possible tasks
+   - Estimate each task independently
+   - Sum up with a buffer (typically 20-30%)
+
+2. USE MULTIPLE METHODS
+   - Engineering team estimates (bottom-up)
+   - Historical comparison (how long did similar projects take?)
+   - T-shirt sizing (XS, S, M, L, XL) for initial scoping
+
+3. HANDLE UNCERTAINTY
+   - Use ranges, not point estimates (5-8 weeks, not 6 weeks)
+   - Identify unknowns and plan spikes/investigations
+   - Build in explicit buffer for unknowns
+   - Re-estimate as you learn more
+
+4. MANAGE SCOPE CREEP
+   - Have clear, documented requirements before development starts
+   - Use a change request process for new asks
+   - Make tradeoffs visible: "We can add X, but we need to cut Y or push the timeline"
+   - Protect the team from context switching
+
+========================================
+TECHNICAL EXECUTION TIPS
+========================================
+
+1. Learn to speak engineering language — understand sprints, story points, CI/CD, deployment
+2. Attend engineering standup and design reviews — shows respect and builds context
+3. Never commit to timelines without consulting the engineering team
+4. Understand the difference between estimate, commitment, and deadline
+5. Be the person who removes blockers and unblocks the team
+6. Write clear, unambiguous specifications — engineers appreciate precision
+7. Invest in understanding the technical architecture of your product
+8. Know when to push back on engineering estimates (ask "what if we simplified X?")
+9. Build trust with engineers by following through on your commitments
+10. Celebrate engineering excellence, not just product launches
+11. Learn to read basic code and pull requests — even if you can't write code
+12. Understand testing pyramids: unit tests, integration tests, E2E tests
+13. Know your system's SLAs, SLOs, and SLIs
+14. Understand the deployment pipeline and release process
+15. Be comfortable with technical architecture discussions, even if you're not deciding

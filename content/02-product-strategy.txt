@@ -1,0 +1,201 @@
+PRODUCT STRATEGY INTERVIEW QUESTIONS — COMPREHENSIVE GUIDE
+
+========================================
+CATEGORY 2: PRODUCT STRATEGY
+========================================
+
+Product Strategy questions test your ability to think about market dynamics, competitive positioning, business models, growth levers, and long-term product vision. These questions require a combination of analytical thinking and creative vision.
+
+========================================
+THE PRODUCT STRATEGY FRAMEWORK
+========================================
+
+STEP 1: UNDERSTAND THE CONTEXT
+Before answering any strategy question, establish:
+
+A. Company Context
+- What is the company's mission and vision?
+- What stage is the company at? (startup, growth, mature)
+- What are the company's core strengths and capabilities?
+- What is the current business model and revenue streams?
+
+B. Market Context
+- What is the total addressable market (TAM)?
+- What are the key market trends and tailwinds?
+- Who are the main competitors and how are they positioned?
+- Are there regulatory or technology shifts happening?
+
+C. User Context
+- Who are the current users/customers?
+- What are their unmet needs?
+- How are they currently being served (or underserved)?
+
+STEP 2: DEFINE THE STRATEGIC OPPORTUNITY
+Frame the opportunity clearly:
+
+1. Market Sizing (TAM/SAM/SOM)
+   - TAM (Total Addressable Market): The total market demand for your product category
+   - SAM (Serviceable Addressable Market): The portion of TAM you can realistically reach
+   - SOM (Serviceable Obtainable Market): The portion of SAM you can capture in 1-3 years
+
+   How to calculate:
+   - Top-down: Industry reports, analyst estimates, total users x average revenue
+   - Bottom-up: Number of potential customers x expected conversion x average deal size
+   - Use both approaches and triangulate
+
+2. Competitive Analysis
+   A. Direct competitors (same product, same market)
+   B. Indirect competitors (different product, same need)
+   C. Potential competitors (could enter this market)
+
+   For each competitor, analyze:
+   - Value proposition and positioning
+   - Strengths and weaknesses
+   - Market share and growth trajectory
+   - Strategic direction (acquisitions, product launches, partnerships)
+
+3. Competitive Advantage
+   Types of sustainable competitive advantages (moats):
+   - Network effects (more users = more value for each user)
+   - Economies of scale (cost advantages at scale)
+   - Switching costs (hard for users to leave)
+   - Data advantages (proprietary data that improves the product)
+   - Brand (trust, recognition, emotional connection)
+   - Technology (patents, proprietary algorithms, unique capabilities)
+   - Distribution (unique channels to reach customers)
+
+STEP 3: DEVELOP THE STRATEGY
+Present your strategic recommendation:
+
+A. Vision Statement
+- Where should the product be in 3-5 years?
+- What is the North Star that guides all decisions?
+
+B. Strategic Pillars (typically 3-4)
+- Each pillar represents a major area of investment
+- Example for a B2B SaaS: (1) Product-led growth, (2) Enterprise expansion, (3) Platform ecosystem, (4) International markets
+
+C. Prioritization
+- Which pillar do you pursue first and why?
+- What is the sequencing logic?
+- What dependencies exist?
+
+D. Go-to-Market Strategy
+- How do you acquire customers? (PLG, sales-led, community-led)
+- What is the pricing model? (freemium, subscription, usage-based, marketplace)
+- What channels will you use for distribution?
+
+STEP 4: DEFINE TRADEOFFS AND RISKS
+Every strategy involves tradeoffs. Be explicit:
+- What are you choosing NOT to do?
+- What are the biggest risks to this strategy?
+- How would you mitigate each risk?
+- What would make you pivot or change direction?
+
+========================================
+COMMON PRODUCT STRATEGY QUESTIONS
+========================================
+
+1. MARKET ENTRY QUESTIONS
+   - "Should [Company X] enter the [Market Y]?"
+   - "How would you launch [Product] in a new market?"
+   - "Should we build, buy, or partner for [capability]?"
+
+   Framework for Market Entry:
+   A. Is the market attractive? (size, growth, margins, competition)
+   B. Do we have the right to win? (capabilities, brand, distribution)
+   C. Can we execute? (resources, talent, timeline)
+   D. What is the financial case? (investment required, time to ROI)
+
+2. COMPETITIVE RESPONSE QUESTIONS
+   - "A competitor just launched [feature]. How do you respond?"
+   - "[Company] is undercutting your pricing by 40%. What do you do?"
+   - "How would you compete with [dominant player]?"
+
+   Framework for Competitive Response:
+   A. Assess the threat: Is this existential, significant, or minor?
+   B. Understand their move: What's their strategy? What are they optimizing for?
+   C. Know your strengths: Where are you differentiated?
+   D. Choose your response:
+      - Ignore (if minor and doesn't affect core users)
+      - Match (if table stakes and necessary to compete)
+      - Leapfrog (if you can build something significantly better)
+      - Flank (if you can target a different segment or use case)
+      - Acquire (if the competitor has unique technology or talent)
+
+3. GROWTH AND EXPANSION QUESTIONS
+   - "How would you grow [Product] from X to 10X users?"
+   - "What new product lines should [Company] consider?"
+   - "How would you monetize [free product]?"
+
+   Growth Framework:
+   A. Optimize existing funnel (acquisition, activation, retention, referral, revenue)
+   B. Expand to adjacent use cases or user segments
+   C. Enter new geographies
+   D. Launch new product lines
+   E. Strategic partnerships and integrations
+   F. Platform/ecosystem strategy
+
+4. PRICING AND MONETIZATION QUESTIONS
+   - "How would you price this product?"
+   - "Should we offer a free tier?"
+   - "How would you transition from one-time purchase to subscription?"
+
+   Pricing Framework:
+   A. Value-based: What is the product worth to the customer?
+   B. Cost-plus: What does it cost to deliver?
+   C. Competition-based: What are alternatives priced at?
+   D. Consider: willingness to pay, price sensitivity, segment differences
+   E. Test: A/B test pricing, offer tiers, analyze conversion at each price point
+
+========================================
+KEY STRATEGY FRAMEWORKS FOR PM INTERVIEWS
+========================================
+
+1. PORTER'S FIVE FORCES
+   - Threat of new entrants
+   - Bargaining power of suppliers
+   - Bargaining power of buyers
+   - Threat of substitutes
+   - Industry rivalry
+   Use when: Analyzing industry attractiveness and competitive dynamics
+
+2. SWOT ANALYSIS
+   - Strengths (internal, positive)
+   - Weaknesses (internal, negative)
+   - Opportunities (external, positive)
+   - Threats (external, negative)
+   Use when: Quick strategic assessment of a company or product position
+
+3. ANSOFF MATRIX
+   - Market Penetration (existing product, existing market)
+   - Market Development (existing product, new market)
+   - Product Development (new product, existing market)
+   - Diversification (new product, new market)
+   Use when: Identifying growth strategies
+
+4. VALUE CHAIN ANALYSIS
+   - Primary activities: inbound logistics, operations, outbound logistics, marketing & sales, service
+   - Support activities: firm infrastructure, HR, technology development, procurement
+   Use when: Understanding where value is created and where to compete
+
+5. JOBS TO BE DONE (JTBD)
+   - Functional jobs: the practical task the user wants to accomplish
+   - Emotional jobs: how the user wants to feel
+   - Social jobs: how the user wants to be perceived
+   Use when: Understanding user motivation at a deep level, identifying opportunities for innovation
+
+========================================
+PRODUCT STRATEGY TIPS
+========================================
+
+1. Always quantify your arguments — use market size estimates, percentages, and financial projections
+2. Show awareness of second-order effects — what happens after your strategy succeeds?
+3. Think about timing — why is now the right time?
+4. Consider the organizational implications — does the company have the capabilities to execute?
+5. Be opinionated — strategy requires making choices, not hedging
+6. Show competitive empathy — understand what competitors will do in response
+7. Connect strategy to execution — great strategy without an execution plan is just a wish
+8. Think in time horizons: What do we do this quarter? This year? Over 3 years?
+9. Reference real company examples to demonstrate pattern recognition
+10. Balance ambition with realism — show you can dream big and plan practically
